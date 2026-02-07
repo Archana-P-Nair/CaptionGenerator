@@ -1,7 +1,6 @@
 # Use an official Python runtime as a parent image
-FROM python:3.10-slim-buster
-
-# NOTE: using slim-buster for better compatibility if needed, but slim is fine.
+# Switch to bookworm (Debian 12) which is the current stable release
+FROM python:3.10-slim-bookworm
 
 # Set the working directory to /app
 WORKDIR /app
@@ -28,5 +27,5 @@ ENV PORT=8000
 # Expose the port
 EXPOSE $PORT
 
-# Run uvicorn server, binding to the PORT environment variable (required by Render)
+# Run uvicorn server, binding to the PORT environment variable
 CMD sh -c "uvicorn backend.main:app --host 0.0.0.0 --port ${PORT}"
