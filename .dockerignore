@@ -1,0 +1,30 @@
+# Git
+.git
+.gitignore
+
+# Frontend
+frontend/
+
+# Virtual Env
+.venv
+venv
+env
+new_env
+Lib
+Scripts
+
+# Datasets
+Flickr8k_Dataset
+Flickr8k_text
+
+# Docker
+Dockerfile
+.dockerignore
+
+# IDE
+.idea
+.vscode
+
+# Local specific
+__pycache__
+*.pyc
