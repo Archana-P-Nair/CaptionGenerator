@@ -1,0 +1,41 @@
+# Virtual Environments
+new_env/
+Lib/
+Scripts/
+pyvenv.cfg
+.venv/
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datasets
+Flickr8k_Dataset/
+Flickr8k_text/
+
+# Large Files (Optional - consider Git LFS for these if needed)
+# models/*.h5
+# features.p
+
+# IDEs
+.idea/
+.vscode/
+
+# Node modules (if any in root)
+node_modules/
+
+# Mac OS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local

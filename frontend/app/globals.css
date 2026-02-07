@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background: #000;
+  color: #f3f4f6;
+}
+
+/* Drag and drop zone */
+.upload-zone {
+  transition: border-color 0.2s, background 0.2s;
+}
+.upload-zone.dragging {
+  border-color: #6366f1;
+  background: rgba(99, 102, 241, 0.08);
+}
+.upload-zone:hover:not(.has-image) {
+  border-color: #4b5563;
+  background: rgba(31, 41, 55, 0.6);
+}
+
+/* Button hover */
+.btn-primary {
+  transition: background 0.2s, transform 0.05s;
+}
+.btn-primary:hover:not(:disabled) {
+  background: #4f46e5;
+}
+.btn-primary:active:not(:disabled) {
+  transform: scale(0.98);
+}
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Caption result */
+.caption-box {
+  background: linear-gradient(135deg, rgba(30, 30, 40, 0.95) 0%, rgba(20, 20, 28, 0.98) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.25);
+}
