@@ -86,23 +86,23 @@ This project uses a **CNN + RNN (LSTM)** hybrid deep learning architecture.
 CaptionGenerator/
 │
 ├── frontend/
-│ ├── app/
-│ ├── components/
-│ ├── public/
-│ ├── styles/
-│ └── package.json
+│ ├── app/ # Next.js app router pages
+│ ├── components/ # Reusable React components
+│ ├── public/ # Static assets
+│ ├── styles/ # Global and component styles
+│ └── package.json # Frontend dependencies
 │
 ├── backend/
-│ ├── main.py
-│ ├── caption_service.py
-│ ├── requirements.txt
-│ └── utils.py
+│ ├── main.py # FastAPI entry point
+│ ├── caption_service.py # Image captioning inference logic
+│ ├── utils.py # Helper functions
+│ └── requirements.txt # Backend dependencies
 │
 ├── models/
-│ └── model_9.h5
+│ └── model_9.h5 # Trained CNN + LSTM model
 │
-├── tokenizer.p
-└── README.md
+├── tokenizer.p # Saved tokenizer for caption generation
+└── README.md # Project documentation
 
 ---
 
@@ -123,11 +123,11 @@ Set environment variable: NEXT_PUBLIC_API_URL=http://localhost:8000
 ---
 🔮 Future Enhancements
 
-🔹 Transformer-based captioning models
-🔹 Beam search decoding
-🔹 Multilingual captions
-🔹 Video captioning
-🔹 Performance metrics (BLEU score)
+-🔹 Transformer-based captioning models
+-🔹 Beam search decoding
+-🔹 Multilingual captions
+-🔹 Video captioning
+-🔹 Performance metrics (BLEU score)
 
 
 👩‍💻 Author
