@@ -129,7 +129,7 @@ Set environment variable: NEXT_PUBLIC_API_URL=http://localhost:8000
 -🔹 Video captioning
 -🔹 Performance metrics (BLEU score)
 
-
+---
 👩‍💻 Author
 
 Archana P Nair
