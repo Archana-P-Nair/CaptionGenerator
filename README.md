@@ -83,26 +83,28 @@ This project uses a **CNN + RNN (LSTM)** hybrid deep learning architecture.
 
 ## 📁 Project Structure
 
+```text
 CaptionGenerator/
 │
 ├── frontend/
-│ ├── app/ # Next.js app router pages
-│ ├── components/ # Reusable React components
-│ ├── public/ # Static assets
-│ ├── styles/ # Global and component styles
-│ └── package.json # Frontend dependencies
+│   ├── app/                # Next.js app router pages
+│   ├── components/         # Reusable React components
+│   ├── public/             # Static assets
+│   ├── styles/             # Global and component styles
+│   └── package.json        # Frontend dependencies
 │
 ├── backend/
-│ ├── main.py # FastAPI entry point
-│ ├── caption_service.py # Image captioning inference logic
-│ ├── utils.py # Helper functions
-│ └── requirements.txt # Backend dependencies
+│   ├── main.py             # FastAPI entry point
+│   ├── caption_service.py  # Image captioning inference logic
+│   ├── utils.py            # Helper functions
+│   └── requirements.txt    # Backend dependencies
 │
 ├── models/
-│ └── model_9.h5 # Trained CNN + LSTM model
+│   └── model_9.h5          # Trained CNN + LSTM model
 │
-├── tokenizer.p # Saved tokenizer for caption generation
-└── README.md # Project documentation
+├── tokenizer.p             # Saved tokenizer for caption generation
+└── README.md               # Project documentation
+
 
 ---
 
