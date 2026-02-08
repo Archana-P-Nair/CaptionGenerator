@@ -123,11 +123,11 @@ Set environment variable: NEXT_PUBLIC_API_URL=http://localhost:8000
 ---
 ### 🔮 Future Enhancements
 
--🔹 Transformer-based captioning models
--🔹 Beam search decoding
--🔹 Multilingual captions
--🔹 Video captioning
--🔹 Performance metrics (BLEU score)
+- 🤖 Transformer-based captioning models  
+- 🔍 Beam search decoding  
+- 🌍 Multilingual captions  
+- 🎥 Video captioning  
+- 📊 Performance metrics (BLEU score)
 
 ---
 👩‍💻 Author
